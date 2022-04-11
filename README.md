@@ -1,6 +1,6 @@
 # Compass Timetable SMS Notification
 
-## Getting started.
+## Getting Started
 
 We assume that before you begin, you will have [Python](http://www.python.org/) and [pip](http://www.pip-installer.org/en/latest/) installed on your system and available at the command line.
 
@@ -21,9 +21,16 @@ python3 auth.py
 ```
 You will be prompted to login to your Compass account with your username & password. It will then show you your `COOKIE` value and `USER_ID` value.
 
-Theres a couple ways you can make it send every 24h. You can either use a [Cronjob](https://ostechnix.com/a-beginners-guide-to-cron-jobs/) or yoink an idea from [StackOverFlow](https://stackoverflow.com/questions/15088037/python-script-to-do-something-at-the-same-time-every-day).
+Now, rename `example.env` to `.env`.
 
-## Contributors
+## Running the Script
+Once you have finished setting up the `.env` file, you can start the script.
+Simply run `python3 main.py` to start the script. It will text you your Compass timetable for the current day. If there are no classes today, it will not send you a text message. However, if there are classes, it will send you a text message and log the SMS's ID in the terminal.
+
+## Scheduling the Script
+Theres a couple ways you can make it send every 24 hours. You can either use a [Cronjob](https://ostechnix.com/a-beginners-guide-to-cron-jobs/) or yoink an idea from [StackOverFlow](https://stackoverflow.com/questions/15088037/python-script-to-do-something-at-the-same-time-every-day).
+
+### Contributors
 <a href="https://github.com/LinusBotTips/compass-notification/graphs/contributors">
 	<img src="https://contrib.rocks/image?repo=LinusBotTips/compass-notification" />
 </a> 

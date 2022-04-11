@@ -4,7 +4,7 @@
 
 We assume that before you begin, you will have [Python](http://www.python.org/) and [pip](http://www.pip-installer.org/en/latest/) installed on your system and available at the command line.
 
-Before you can run this project, you will need to set some system environment variables in the [example.env](https://github.com/LinusBotTips/compass-notification/blob/main/example.env) file.  These are:
+Before you can run this project, you will need to set some environment variables in the [example.env](https://github.com/LinusBotTips/compass-notification/blob/main/example.env) file.  These are:
 
 * `TWILIO_ACCOUNT_SID` : Your Twilio "account SID" - it's like your username for the Twilio API.  This and the auth token (below) can be found [on your account dashboard](https://www.twilio.com/user/account).
 * `TWILIO_AUTH_TOKEN` : Your Twilio "auth token" - it's your password for the Twilio API.  This and the account SID (above) can be found [on your account dashboard](https://www.twilio.com/user/account).

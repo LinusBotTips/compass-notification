@@ -11,6 +11,8 @@ pip install -r requirements.txt
 python3 auth.py
 ```
 Theres a couple ways you can make it send every 24h. You can either use a Cronjob or yoink an idea from [StackOverFlow](https://stackoverflow.com/questions/15088037/python-script-to-do-something-at-the-same-time-every-day)
+## Support
+If you have any issues feel free to create an issue on GitHub.
 
 ## Contributors
 <a href="https://github.com/LinusBotTips/compass-notification/graphs/contributors">

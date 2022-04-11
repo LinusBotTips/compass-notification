@@ -18,7 +18,7 @@ client = Client(account_sid, auth_token)
 todays_date = date.today().strftime(f"%d/%m/%Y")
 
 # Login to compass
-burp0_cookies = {"ASP.NET_SessionId": "0516ba6c-69e2-4cf4-b25d-cf2af986f93a"}
+burp0_cookies = {"ASP.NET_SessionId": cookie}
 burp0_url = f"https://{subdomain}.compass.education:443/services/mobile.svc/GetScheduleLinesForDate?sessionstate=readonly"
 burp0_headers = {"Accept": "*/*", "Content-Type": "application/json", "Accept-Encoding": "gzip, deflate", "User-Agent": "iOS/14_6_0 type/iPhone CompassEducation/6.3.0", "Accept-Language": "en-au", "Connection": "close"}
 burp0_json={"date": f"{todays_date} - 12:00 am", "sessionstate": "readonly", "userId": int(user_id)}

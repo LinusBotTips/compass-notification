@@ -21,7 +21,7 @@ python3 auth.py
 ```
 You will be prompted to login to your Compass account with your username & password. It will then show you your `COOKIE` value and `USER_ID` value.
 
-Theres a couple ways you can make it send every 24h. You can either use a Cronjob or yoink an idea from [StackOverFlow](https://stackoverflow.com/questions/15088037/python-script-to-do-something-at-the-same-time-every-day).
+Theres a couple ways you can make it send every 24h. You can either use a [Cronjob](https://ostechnix.com/a-beginners-guide-to-cron-jobs/) or yoink an idea from [StackOverFlow](https://stackoverflow.com/questions/15088037/python-script-to-do-something-at-the-same-time-every-day).
 
 ## Contributors
 <a href="https://github.com/LinusBotTips/compass-notification/graphs/contributors">
